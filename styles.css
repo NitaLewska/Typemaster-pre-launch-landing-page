@@ -1,0 +1,154 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;
+    color: #162542;
+}
+
+.header {
+    margin-top: 55px;
+    margin-bottom: 83px;
+}
+
+.header--logo {
+    height: 40px;
+}
+
+.header--button {
+    width:172px;
+    height:58px;
+    margin-right: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    text-transform:uppercase;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.intro h1+p{
+    margin-bottom: 40px;
+}
+
+.intro button {
+    height: 58px;
+    width: 175px;
+    background-color: #F16718;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    float: left;
+    margin-right: 40px;
+}
+
+.intro button+p {
+    text-transform: uppercase;
+}
+
+.about {
+    margin-bottom: 168px;
+}
+
+.about img {
+}
+
+.features {
+    margin-bottom: 128px;
+}
+
+.features .features_image-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    background: #F16718;
+    border-radius: 16px;
+    margin-bottom: 48px;
+}
+
+.features h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+h2 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+@media (max-width:1199px) {
+    #heh {
+        width: fit-content;
+        height:425px;
+    }
+
+    .features {
+        margin-bottom: 70px;
+    }
+    
+    .features .features_image-border{
+        margin-bottom: 40px;
+    }
+    
+    .features h3+p {
+        margin-bottom: 72px;
+    }
+}
+
+@media (max-width:767px) {
+    #heh {
+        width: fit-content;
+        height:425px;
+    }
+
+    .features {
+        margin-bottom: 32px;
+    }
+    
+    .features .features_image-border{
+        margin-bottom: 48px;
+    }
+    
+    .features h3+p {
+        margin-bottom: 64px;
+    }
+}
+}
