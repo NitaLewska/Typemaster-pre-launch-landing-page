@@ -13,11 +13,11 @@ body {
     margin-bottom: 83px;
 }
 
-.header--logo {
+.header_logo {
     height: 40px;
 }
 
-.header--button {
+.header_button {
     width:172px;
     height:58px;
     margin-right: 12px;
@@ -115,7 +115,7 @@ p {
 }
 
 @media (max-width:1199px) {
-    #heh {
+    .intro_image {
         width: fit-content;
         height:425px;
     }
@@ -134,9 +134,32 @@ p {
 }
 
 @media (max-width:767px) {
-    #heh {
+
+    .header_button {
+        height: 48px;
+
+    }
+
+    .intro_image {
+        width: 100vw;
+        height:auto;
+    }
+
+    #heh2 {
         width: fit-content;
-        height:425px;
+        position: relative;
+        left: -10vw;
+    }
+
+    .about img {
+        height: auto;
+        width: 100%;
+    }
+
+    .about {
+
+        width:100%;
+
     }
 
     .features {
@@ -151,4 +174,4 @@ p {
         margin-bottom: 64px;
     }
 }
-}
+

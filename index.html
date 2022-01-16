@@ -15,36 +15,39 @@
 <body>
   <header class="container header">
     <div class="row">
-      <img src="assets/shared/logo.svg" alt="" class="header--logo col-auto me-auto">
-      <button class="header--button col-auto btn btn-light">Pre-order now</button>
+      <img src="assets/shared/logo.svg" alt="" class="header_logo col-auto me-auto">
+      <button class="header_button col-auto btn btn-light">Pre-order now</button>
     </div>
   </header>
 
   <main class="container">
-      <div class="intro row d-md-flex flex-nowrap align-items-center ">
-        <div class="col-lg-5 col-md-6 col-xs-12">
+      <div class="intro row d-md-flex flex-md-nowrap align-items-center ">
+        <div class="col-lg-5 col-md-6 col-12">
           <h1>Typemaster keyboard</h1>
           <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
             mechanical typing experience.</p>
-          <button>Pre-order now</button>
+          <button class="intro_button btn">Pre-order now</button>
           <p>Release on 5/27</p>
         </div>
-        <img srcset="assets/mobile/image-keyboard.jpg 300w, 
-                      assets/tablet/image-keyboard.jpg 768w,
-                      assets/desktop/image-keyboard.jpg 1200w"
-              src="assets/desktop/image-keyboard.jpg" alt="" class="col-lg-6 col-md-5 offset-1 " id="heh">
+        <picture>
+          <source media="(min-width:1200px)" srcset="assets/desktop/image-keyboard.jpg">
+          <source media="(min-width:768px)" srcset="assets/tablet/image-keyboard.jpg">
+          <img src="assets/mobile/image-keyboard.jpg" alt="" class="col-lg-6 col-md-5 offset-lg-1 offset-md-1 col-12 intro_image">
+        </picture>
       </div>
       
       <div class="about row align-items-center">
-        <img srcset="assets/mobile/image-phone-and-keyboard.jpg 300w, 
-                      assets/tablet/image-phone-and-keyboard.jpg 768w,
-                       assets/desktop/image-phone-and-keyboard.jpg 1200w"
-        
-        src="assets/desktop/image-phone-and-keyboard.jpg" alt="" class="col-lg-3 col-md-4">
-        <img srcset="assets/mobile/image-glass-and-keyboard.jpg 300w, 
-                      assets/tablet/image-glass-and-keyboard.jpg 768w,
-         assets/desktop/image-glass-and-keyboard.jpg 1200w" src="assets/desktop/image-glass-and-keyboard.jpg" alt="" class="col-lg-5 col-md-8">
-        <div class="col-lg-3 offset-lg-1 col-md-12 col-xs-12">
+        <picture class="col-lg-3 col-md-4 col-4 ">
+          <source media="(min-width:1200px)" srcset="assets/desktop/image-phone-and-keyboard.jpg">
+          <source media="(min-width:768px)" srcset="assets/tablet/image-phone-and-keyboard.jpg">
+          <img src="assets/mobile/image-phone-and-keyboard.jpg" alt="" class="img-fluid" id="heh2">
+        </picture>
+        <picture class="col-lg-5 col-md-8 col-8">
+          <source media="(min-width:1200px)" srcset="assets/desktop/image-glass-and-keyboard.jpg">
+          <source media="(min-width:768px)" srcset="assets/tablet/image-glass-and-keyboard.jpg">
+          <img src="assets/mobile/image-glass-and-keyboard.jpg" alt="" class="img-fluid">
+        </picture> 
+        <div class="col-lg-3 offset-lg-1 col-md-12 col-12">
           <h2>Mechanical wireless keyboard</h2>
           <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
             of switches and keycaps, along with reliable wireless connectivity.</p>
